@@ -1,17 +1,13 @@
-name: Deploy Hugo site with TailwindCSS
+name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - juanisbnanis # 👈 replace with your branch
-  pull_request:
-    branches:
-      - juanisbnanis
-
+      - juanisbnanis # replace this with your source branch (e.g. main)
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           submodules: true
@@ -22,8 +18,10 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install Node dependencies
-        run: npm ci || npm install
+      - name: Install dependencies
+        run: |
+          npm install --no-fund --no-audit
+          npm rebuild @parcel/watcher
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -37,5 +35,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
+          publish_branch: gh-pages
