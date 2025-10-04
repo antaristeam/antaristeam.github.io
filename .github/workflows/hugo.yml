@@ -2,10 +2,10 @@ name: Deploy Hugo site with TailwindCSS
 on:
   push:
     branches:
-      - your-branch-name # 👈 replace with your branch
+      - juanisbnanis # 👈 replace with your branch
   pull_request:
     branches:
-      - your-branch-name
+      - juanisbnanis
 
 jobs:
   build:
