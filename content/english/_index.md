@@ -1,51 +1,48 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
+  title: "Quienes somos?"
+  content: "En Antaris somos un equipo de científicos apasionados por transformar ideas en soluciones tecnológicas con impacto real. Combinamos ciencia de datos, modelado matemático e inteligencia artificial para resolver problemas complejos de forma accesible, eficiente y sostenible.
+"
+
+
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    label: "Conoce nuestro equipo"
+    link: ""
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
+  - title: "Tú aliado desde el dia cero"
     image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: "Nuestro enfoque es práctico y colaborativo: escuchamos, comprendemos y trabajamos de la mano con cada cliente para desarrollar herramientas que optimicen procesos, faciliten la toma de decisiones y generen valor tangible"
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Sistemas y algoritmos inteligentes"
+      - "Modelos y análisis cuantitativos"
+      - "Consultoría técnica y científica"
+      - "Ciencia de datos y machine learning"
+      - "Investigación aplicada e innovación"
+      - "Resolución de problemas complejos"
+      - "Impacto social y tecnológico"
     button:
       enable: false
-      label: "Get Started Now"
+      label: "Conoce ANEXUS"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
+  - title: "Nuestros Servicios"
     image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
-    bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+    content: "Nuestros servicios pueden ayudar a su empresa a impulsar el progreso y obtener resultados reales. Prestamos servicioa de consultoria, que apliquan la ciencia de datos, modelado matemáticos e IA para resolver problemas concretos y comunes de PyMes y pequeñas organizaciones. Ofrecemos solución accesible y escalable para empresas de cualquier nivel"
+   
     button:
       enable: true
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
+  - title: "Nuestra Historia"
     image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
-    bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+    content: "Antaris nació de la convicción de que el conocimiento científico no debe quedarse únicamente en la academia, sino ponerse al servicio de empresas, instituciones y comunidades que enfrentan retos reales. Nos motiva cerrar la brecha entre la investigación avanzada en ciencia de datos, modelado matemático e inteligencia artificial, y las necesidades prácticas de organizaciones que requieren soluciones accesibles y efectivas para crecer y ser más competitivas."
+
     button:
       enable: false
       label: ""

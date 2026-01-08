@@ -2,23 +2,23 @@
 
 # main menu
 [[main]]
-name = "Home"
+name = "Inicio"
 url = "/"
 weight = 1
 
 [[main]]
-name = "About"
+name = "Antaris"
 url = "/about"
 weight = 2
 
 [[main]]
-name = "Elements"
+name = "Compañia"
 url = "/elements"
 weight = 3
 
 [[main]]
 weight = 4
-name = "Pages"
+name = "Páginas"
 
 [[main]]
 parent = "Pages"

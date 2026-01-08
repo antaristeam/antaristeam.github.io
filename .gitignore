@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Hugo Generated files
+public/
+resources/_gen/
+.hugo_build.lock
+
+# System files
+.DS_Store
+.vscode/
+.devcontainer/
