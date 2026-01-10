@@ -1,3 +1,3 @@
 ---
-title: "Authors"
+title: "Nuestro Equipo"
 ---
