@@ -7,57 +7,59 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "Antaris"
-url = "/about"
+name = "Nuestros servicios"
+url = "/elements"
 weight = 2
 
 [[main]]
-name = "Compañia"
-url = "/elements"
+name = "Quiénes somos"
+url = "/authors"
 weight = 3
 
 [[main]]
-weight = 4
-name = "Páginas"
-
-[[main]]
-parent = "Pages"
 name = "Blog"
+weight = 4
 url = "/blog"
 
-[[main]]
-parent = "Pages"
-name = "Contact"
-url = "/contact"
-
-[[main]]
-parent = "Pages"
-name = "Authors"
-url = "/authors"
-
-[[main]]
-parent = "Pages"
-name = "Categories"
-url = "/categories"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "/404"
+# [[main]]
+# weight = 4
+# name = "Páginas"
 
 
-# footer menu
-[[footer]]
-name = "About"
-url = "/about"
-weight = 1
 
-[[footer]]
-name = "Elements"
-url = "/elements"
-weight = 2
+# [[main]]
+# parent = "Pages"
+# name = "Contact"
+# url = "/contact"
 
-[[footer]]
-name = "Privacy Policy"
-url = "/privacy-policy"
-weight = 3
+# [[main]]
+# parent = "Pages"
+# name = "Authors"
+# url = "/authors"
+
+# [[main]]
+# parent = "Pages"
+# name = "Categories"
+# url = "/categories"
+
+# [[main]]
+# parent = "Pages"
+# name = "404 Page"
+# url = "/404"
+
+
+# # footer menu
+# [[footer]]
+# name = "About"
+# url = "/about"
+# weight = 1
+
+# [[footer]]
+# name = "Elements"
+# url = "/elements"
+# weight = 2
+
+# [[footer]]
+# name = "Privacy Policy"
+# url = "/privacy-policy"
+# weight = 3
